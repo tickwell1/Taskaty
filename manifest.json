@@ -1,5 +1,4 @@
 {
-  "id": "./",
   "name": "تسكاتي — Taskaty",
   "short_name": "تسكاتي",
   "description": "نظّم مهامك وتابع إنجازك بسهولة.",
@@ -14,20 +13,29 @@
     {
       "src": "./icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
       "src": "./icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
       "src": "./icons/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "id": "./",
+  "categories": [
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "مهمة جديدة",
+      "short_name": "جديدة",
+      "url": "./?add=1"
     }
   ]
 }
